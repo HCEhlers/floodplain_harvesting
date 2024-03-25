@@ -1,7 +1,8 @@
 # Project
 This project is done in conenction with the Jetson AI Fundamentals course.
 
-The aim of the project is to train a model that can predict - given a satellite image of agricultural areas - whether the sattelite image is a reservoir or a dead spot.
+The aim of the project is to train a model that can predict - given a satellite image of agricultural areas - whether the sattelite image is a reservoir, reservoir with a dead spot
+or a reservoir with a dead spot.
 
 ### Dependencies
 - Clone the repository.
