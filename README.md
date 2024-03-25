@@ -7,9 +7,10 @@ or a reservoir with a dead spot.
 
 ## To Do
 - Gennemgå notebooks/videoer i nvidia kurset.
-- Forbered data til pytorch, label data
-- Find frem til model vi skal bruge
+- Forbered data til pytorch, label (nvidia classification) data
+- Find frem til model (fx ResNet18-network) vi skal bruge
 - Det skal være reproducerbart, alt skal dokumenteres.
+- Classification project
 
 ### Dependencies
 - Clone the repository.
