@@ -1,5 +1,5 @@
 # Project
-This project is done in conenction with the Jetson AI Fundamentals course.
+This project is done in conenction with the Jetson AI Fundamentals course, https://developer.nvidia.com/embedded/learn/jetson-ai-certification-programs#course\_outline.
 
 The aim of the project is to train a model that can predict - given a satellite image of agricultural areas - whether the sattelite image is a reservoir, reservoir with a dead spot
 or a reservoir without a dead spot. The value of detecting water harvests autonomously (water extracted from rivers to private reservoirs) can significantly enhance water authorities' capabilities to detect potential water users in remote regions.   
