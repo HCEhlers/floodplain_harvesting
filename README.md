@@ -10,9 +10,10 @@ or a reservoir without a dead spot. The value of detecting water harvests autono
 - Forbered data til pytorch, label (nvidia classification) data
 - Find frem til model (fx ResNet18-network) vi skal bruge
 - Det skal være reproducerbart, alt skal dokumenteres.
-- Classification project
+- Object detection project
 - Describe use of Cogniflow.ai for labelling data
 - Document assumptions used in labelling
+- Future work could estimation of wate storage
 ### Dependencies
 - Clone the repository.
 - Setup the environment with the .yaml-file that has all the dependencies.
