@@ -12,6 +12,7 @@ or a reservoir without a dead spot. The value of detecting water harvests autono
 - Det skal være reproducerbart, alt skal dokumenteres.
 - Classification project
 - Describe use of Cogniflow.ai for labelling data
+- Document assumptions used in labelling
 ### Dependencies
 - Clone the repository.
 - Setup the environment with the .yaml-file that has all the dependencies.
