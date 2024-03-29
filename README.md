@@ -11,7 +11,7 @@ or a reservoir without a dead spot. The value of detecting water harvests autono
 - Find frem til model (fx ResNet18-network) vi skal bruge
 - Det skal være reproducerbart, alt skal dokumenteres.
 - Classification project
-
+- Describe use of Cogniflow.ai for labelling data
 ### Dependencies
 - Clone the repository.
 - Setup the environment with the .yaml-file that has all the dependencies.
