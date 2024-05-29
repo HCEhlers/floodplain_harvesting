@@ -6,22 +6,22 @@ or a reservoir without a dead spot. The value of detecting water harvests autono
 
 
 ## To Do
-- Gennemgå notebooks/videoer i nvidia kurset.
-- Forbered data til pytorch, label (nvidia classification) data
-- Find frem til model (fx ResNet18-network) vi skal bruge
-- Det skal være reproducerbart, alt skal dokumenteres.
-- Object detection project
-- Describe use of Cogniflow.ai for labelling data
-- Document assumptions used in labelling
-- Future work could estimation of wate storage
+- Gennemgå notebooks/videoer i nvidia kurset (H)
+- Forbered data til pytorch, label (nvidia classification) data CHECK
+- Find frem til model (fx ResNet18-network) vi skal bruge CHECK
+- Det skal være reproducerbart, alt skal dokumenteres (H)
+- Classification project (H)
+- Describe use of Cogniflow.ai for labelling data (R)
+- Document assumptions used in labelling (R)
+- Future work could estimation of water storage + sensor combination (R)
 ### Dependencies
 - Clone the repository.
 - Setup the environment with the .yaml-file that has all the dependencies.
 - Then open jupyter lab and run the different notebooks.
 
 ```bash
-    conda env create -f  master_thesis.yml
-    conda activate master_thesis
+    conda env create -f  waterHarvestingDetectionNewSouthWales.yml
+    conda activate waterHarvestingDetectionNewSouthWales
     jupyter-lab
 ```
 
