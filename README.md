@@ -7,6 +7,9 @@ or a reservoir without a dead spot. The value of detecting water harvests autono
 ## Why detecting water harvesting is important to society
 Disruption to climate is causing agriculture to turn to irrigation as a safeguard for unreliable rainfall. As competition for freshwater increases, more farms are building private water storages to protect its ability to irrigate crops if a river periodically runs dry. When multiple farms creates water storages, evaporation increases - reducing both local water availability and productivity within a region. Such phenonema is known as "tragedy of the commons" and is decribed in environmental economics as an open-access and finite resource which generates value to consumers but is difficult to regulate to to its open areas. 
 
+## AI leverages large-scale satellite data to track down illigal activity
+
+
 ## To Do
 - Gennemgå notebooks/videoer i nvidia kurset (H)
 - Forbered data til pytorch, label (nvidia classification) data CHECK
