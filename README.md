@@ -1,17 +1,23 @@
 # Project
 This project is done in conenction with the Jetson AI Fundamentals course, https://developer.nvidia.com/embedded/learn/jetson-ai-certification-programs#course\_outline.
 
-The aim of the project is to train a model that can predict - given a satellite image of agricultural areas - whether the sattelite image is a reservoir, reservoir with a dead spot
-or a reservoir without a dead spot. The value of detecting water harvests autonomously (water extracted from rivers to private reservoirs) can significantly enhance water authorities' capabilities to detect potential water users in remote regions.   
+The aim of the project is to train a model that can predict - given a satellite image of agricultural areas - whether the image is a reservoir, reservoir with a dead spot
+or a reservoir without a dead spot. The value of detecting water harvests autonomously (water extracted from rivers to private reservoirs) can significantly enhance water authorities' capabilities to detect potential illegal water harvesting activty in remote regions.   
 
 ## Why detecting water harvesting is important to society
 Disruption to climate is causing agriculture to turn to irrigation as a safeguard for unreliable rainfall. As competition for freshwater increases, more farms are building private water storages to protect its ability to irrigate crops if a river periodically runs dry. When multiple farms creates water storages, evaporation increases - reducing both local water availability and productivity within a region. Such phenonema is known as "tragedy of the commons" and is decribed in environmental economics as an open-access and finite resource which generates value to consumers but is difficult to regulate to to its open areas. 
 Such behaviour is known as water harvesting - the choice to build out dam-like infrastructure to pump water into the a privately held reservoir where no other agent can access it.  
 
-## AI leverages large-scale satellite data to track down illigal activity
+## Satellite images to track down illegal water harvesting activity
+We approached the problem of water harvesting as an authority-stakeholder-idenfication problem, on par with illigal fishery. 
+Similar to fishing, imagine you catch fish, and you see your neighboring vessel using equipment (or enters forbidden zones) in order to create a larger catch. 
+You have a feeling something is wrong, yet, you cannot quantify the catch and you do not have legitimate evidence that something illegal is taking place. 
+
+The same occurs when you grow crops through irrigation, and you see your neighbor having large pumps and stores water somewhere on private property. Now, as satellites are crossing the skies, it becomes possible to gather information. Though, detecting water harvesting is not as simple as detecting a can of Coca-Cola.   
+
+## How NVIDIA Jetson Nano comes into play
 
 
-## Differentiates between water storages and agriculturals field to detect water harvesting
 
 
 ## To Do
