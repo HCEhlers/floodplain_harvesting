@@ -10,6 +10,9 @@ Disruption to climate is causing agriculture to turn to irrigation as a safeguar
 ## AI leverages large-scale satellite data to track down illigal activity
 
 
+## Differentiates between a water storage unit and an agricultural field to detect water harvesting
+
+
 ## To Do
 - Gennemgå notebooks/videoer i nvidia kurset (H)
 - Forbered data til pytorch, label (nvidia classification) data CHECK
