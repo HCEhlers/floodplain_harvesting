@@ -15,7 +15,7 @@ You have a feeling something is wrong, yet, you cannot quantify the catch and yo
 
 The same occurs when you grow crops through irrigation, and you see your neighbor having large pumps and stores water somewhere on private property. Now, as satellites are crossing the skies, it becomes possible to gather information. Though, detecting water harvesting is not as simple as detecting a can of Coca-Cola as water storages have various sizes and forms.   
 
-## Creating two labels to identify water harvesting
+## Creating two labels and assumptions to identify water harvesting
 We downloaded images from MAXAR Technologies in regions we knew water harvesting took place. From what we discovered, many of the water storages were either semi-full or empty. This imposed a problem as our original assumption was binary (yes/no) to detect a water storage, and though the images it was impossible to 'label' a water storage only based on completely full water storages.
 
 We had our original label: reservoir
@@ -24,15 +24,16 @@ We came up with an additional label: deadspot
 A deadspot is an area within the reservoir which has no water ie. the elevation is slightly higher. A reservoir can have multiple deadspots, and an empty reservoir is both a deadspot and a reservoir.
 By creating this additional label our model was able to understand variations in the images that have water storages. It makes a lot more sense when seeing this on images. 
 
+By having these two labels the model could detect whether we were observing water harvesting, or, if it was just an agricultural field with no crops. 
+We were using Cogniflow.ai to get create 'areas' within the images where we observed both reservoirs and deadspots. 
+
+The 'blind spot' in our model has been when a full water storage had a strong presence of algae booms. From satellites, when you look at a water storage that is light green it resembles a lot like the neighboring agricultural field that is being irrigated. We did not come up with a smart label/technique to identify algae booms in a reservoir, however, for the scope of the project, we would expect the chances for misinterpreting a resevoir for an agricultural field to be low.  
+
+## Laying the foundations for the most badass water authority in the world
 
 
 
-## To Do
-- Gennemgå notebooks/videoer i nvidia kurset (H)
-- Forbered data til pytorch, label (nvidia classification) data CHECK
-- Find frem til model (fx ResNet18-network) vi skal bruge CHECK
-- Det skal være reproducerbart, alt skal dokumenteres (H)
-- Classification project (H)
+
 - Describe use of Cogniflow.ai for labelling data (R)
 - Document assumptions used in labelling (R)
 - Future work could estimation of water storage + sensor combination (R)
