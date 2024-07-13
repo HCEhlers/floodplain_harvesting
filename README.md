@@ -15,10 +15,15 @@ You have a feeling something is wrong, yet, you cannot quantify the catch and yo
 
 The same occurs when you grow crops through irrigation, and you see your neighbor having large pumps and stores water somewhere on private property. Now, as satellites are crossing the skies, it becomes possible to gather information. Though, detecting water harvesting is not as simple as detecting a can of Coca-Cola as water storages have various sizes and forms.   
 
-## Our approach to train the resnet 18 model through NVIDIA Jetson Nano to identify water harvesting
+## Creating two labels to identify water harvesting
 We downloaded images from MAXAR Technologies in regions we knew water harvesting took place. From what we discovered, many of the water storages were either semi-full or empty. This imposed a problem as our original assumption was binary (yes/no) to detect a water storage, and though the images it was impossible to 'label' a water storage only based on completely full water storages.
 
-We then came up with an additional label: 
+We had our original label: reservoir
+We came up with an additional label: deadspot
+
+A deadspot is an area within the reservoir which has no water ie. the elevation is slightly higher. A reservoir can have multiple deadspots, and an empty reservoir is both a deadspot and a reservoir.
+By creating this additional label our model was able to understand variations in the images that have water storages. It makes a lot more sense when seeing this on images. 
+
 
 
 
