@@ -29,7 +29,7 @@ We were using Cogniflow.ai to get create 'areas' within the images where we obse
 
 The 'blind spot' in our model has been when a full water storage had a strong presence of algae booms. From satellites, when you look at a water storage that is light green it resembles a lot like the neighboring agricultural field that is being irrigated. We did not come up with a smart label/technique to identify algae booms in a reservoir, however, for the scope of the project, we would expect the chances for misinterpreting a resevoir for an agricultural field to be low.  
 
-## Laying the foundations for the most badass water authority in the world and future work
+## Future work for laying the foundations for the most badass water authority in the world
 
 Rarely, you come across ideas that targets megatrends in climate adaptation. Most ideas relate to carbon emissions. 
 
