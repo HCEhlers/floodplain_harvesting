@@ -20,7 +20,7 @@ To really get the model to understand what it is looking at - we must first unde
 
 Our definition of floodplain harvesting is:
 1) a man-made structure to collect and store large quantities of water on private land.
-2) the purpose of the structure is ensure enough water for a production, purely incentized on profits.  
+2) the purpose of the structure is to ensure enough water for a production, purely incentized on profits.  
 
 We downloaded images from MAXAR Technologies in regions we knew water harvesting took place. From what we discovered, many of the water storages were either semi-full or empty. This imposed a problem as our original assumption was binary (yes/no) to detect a water storage, and though the images it was impossible to 'label' a water storage only based on completely full water storages.
 
@@ -35,14 +35,15 @@ We were using Cogniflow.ai to get create 'areas' within the images where we obse
 
 The 'blind spot' in our model has been when a full water storage had a strong presence of algae booms. From satellites, when you look at a water storage that is light green it resembles a lot like the neighboring agricultural field that is being irrigated. We did not come up with a smart label/technique to identify algae booms in a reservoir, however, for the scope of the project, we would expect the chances for misinterpreting a resevoir for an agricultural field to be low.  
 
-## Future work for laying the foundations for the most badass water authority in the world
+## Future work for laying the foundations to enhanced water governance
+Water governance deals with the distribution of adequate available amount of water in a river basin. The Murray-Darling Basin holds 22,256 GL (gigalitres) of water in its entire basin. Every 1 GL represents 1,000 ML (megalitres), and a guesstimate is that water storages can vary in sizes of 5 ML to 2.000 ML. When water policy is designed it relies heavily on having a transparent and accurate water take. Although a simple behaviour of building a 2 GL water storage unit would not have an effect on the cumulative 22,256 GL it does take out local flows in a river which can cause a flow-disruption to a river system. The distribution of these water storages must be scattered out in order to avoid local resource collapses. With the help of imagery over land which detects these storages, a government can better plan and prepare for potential local water availability problems. 
 
-Rarely, you come across ideas that targets megatrends in climate adaptation. Most ideas relate to carbon emissions. 
+A future work for this project will be to integrate sensor readings from flow rate modules with the satelite images to track exactly how much water storages (reservoirs) take from a river stream. 
 
 
-- Describe use of Cogniflow.ai for labelling data (R)
-- Document assumptions used in labelling (R)
-- Future work could estimation of water storage + sensor combination (R)
+
+
+
 ### Dependencies
 - Clone the repository.
 - Setup the environment with the .yaml-file that has all the dependencies.
