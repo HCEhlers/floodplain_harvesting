@@ -8,7 +8,7 @@ or a reservoir without a dead spot. The value of detecting water harvests autono
 Disruption to climate is causing agriculture to turn to irrigation as a safeguard for unreliable rainfall. As competition for freshwater increases, more farms are building private water storages to protect its ability to irrigate crops if a river periodically runs dry. When multiple farms creates water storages, evaporation increases - reducing both local water availability and productivity within a region. Such phenonema is known as "tragedy of the commons" and is decribed in environmental economics as an open-access and finite resource which generates value to consumers but is difficult to regulate to to its open areas. 
 Such behaviour is known as water harvesting - the choice to build out dam-like infrastructure to pump water into the a privately held reservoir where no other agent can access it.  
 
-## Satellite images to track down floodplain harvesting activity
+## Satellite images and AI to track down floodplain harvesting activity
 We approached the problem of water harvesting as an authority-stakeholder-idenfication problem, on par with illigal fishery. 
 Similar to fishing, imagine you catch fish, and you see your neighboring vessel using equipment (or enters forbidden zones) in order to create a larger catch. 
 You have a feeling something is wrong, yet, you cannot quantify the catch and you do not have legitimate evidence that something illegal is taking place. 
