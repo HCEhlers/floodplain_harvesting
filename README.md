@@ -8,14 +8,14 @@ or a reservoir without a dead spot. The value of detecting water harvests autono
 Disruption to climate is causing agriculture to turn to irrigation as a safeguard for unreliable rainfall. As competition for freshwater increases, more farms are building private water storages to protect its ability to irrigate crops if a river periodically runs dry. When multiple farms creates water storages, evaporation increases - reducing both local water availability and productivity within a region. Such phenonema is known as "tragedy of the commons" and is decribed in environmental economics as an open-access and finite resource which generates value to consumers but is difficult to regulate to to its open areas. 
 Such behaviour is known as water harvesting - the choice to build out dam-like infrastructure to pump water into the a privately held reservoir where no other agent can access it.  
 
-## Satellite images to track down illegal floodplain harvesting activity
+## Satellite images to track down floodplain harvesting activity
 We approached the problem of water harvesting as an authority-stakeholder-idenfication problem, on par with illigal fishery. 
 Similar to fishing, imagine you catch fish, and you see your neighboring vessel using equipment (or enters forbidden zones) in order to create a larger catch. 
 You have a feeling something is wrong, yet, you cannot quantify the catch and you do not have legitimate evidence that something illegal is taking place. 
 
 The same occurs when you grow crops through irrigation, and you see your neighbor having large pumps and stores water somewhere on private property. Now, as satellites are crossing the skies, it becomes possible to gather information. Though, detecting water harvesting is not as simple as detecting a can of Coca-Cola as water storages have various sizes and forms.   
 
-## Creating two labels and assumptions for floodplaing harvesting
+## Creating two labels and assumptions for floodplain harvesting
 To really get the model to understand what it is looking at - we must first understand it ourselves. As this [the behaviouar to floodplain harvest] is a relatively new phenonema, we struggled to find meaning the correct terminology to use when we observed the behaviour. It looks like a man-made lake but a water storage (reservoir) for floodplain harvesting is more 'edgy' with rectangular-like shapes.  
 
 Our definition of floodplain harvesting is:
