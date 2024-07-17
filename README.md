@@ -41,10 +41,10 @@ Water governance deals with the distribution of adequate available amount of wat
 A future work for this project will be to integrate sensor readings from flow rate modules with the satelite images to track exactly how much water storages (reservoirs) indivdually take from a river basin. 
 
 ## Folders
-annoated_data <- here you will find test and training images
-labeled_data <- we used cogniflow.ai to "identify" reservoirs and deadspots in a coordinate-like way
-raw_image_data <- all our data files. Note: the name for each image are longitude and latitude coordinates, feel free to copy-paste these coordinates to find the actual locations. You can find the locations using MAXAR discover: https://discover.maxar.com/
-scripts <- here you will find "split_data.py" copy-paste the code and run it on NVIDIA Jetson Nano.
+1. annoated_data <- here you will find test and training images
+2. labeled_data <- we used cogniflow.ai to "identify" reservoirs and deadspots in a coordinate-like way
+3. raw_image_data <- all our data files. Note: the name for each image are longitude and latitude coordinates, feel free to copy-paste these coordinates to find the actual locations. You can find the locations using MAXAR discover: https://discover.maxar.com/
+4. scripts <- here you will find "split_data.py" copy-paste the code and run it on NVIDIA Jetson Nano.
 
 
 
