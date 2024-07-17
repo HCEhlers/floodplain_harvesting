@@ -38,7 +38,7 @@ The 'blind spot' in our model has been when a full water storage had a strong pr
 ## Future work for laying the foundations to enhanced water governance
 Water governance deals with the distribution of adequate available amount of water in a river basin. The Murray-Darling Basin holds 22,256 GL (gigalitres) of water in its entire basin. Every 1 GL represents 1,000 ML (megalitres), and a guesstimate is that water storages can vary in sizes of 5 ML to 2.000 ML. When water policy is designed it relies heavily on having a transparent and accurate water take. Although a simple behaviour of building a 2 GL water storage unit would not have an effect on the cumulative 22,256 GL it does take out local flows in a river which can cause a flow-disruption to a river system. The distribution of these water storages must be scattered out in order to avoid local resource collapses. With the help of imagery over land which detects these storages, a government can better plan and prepare for potential local water availability problems. 
 
-A future work for this project will be to integrate sensor readings from flow rate modules with the satelite images to track exactly how much water storages (reservoirs) take from a river stream. 
+A future work for this project will be to integrate sensor readings from flow rate modules with the satelite images to track exactly how much water storages (reservoirs) indivdually take from a river basin. 
 
 ## Folders
 annoated_data <- here you will find test and training images
